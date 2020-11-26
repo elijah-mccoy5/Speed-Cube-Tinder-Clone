@@ -1,0 +1,78 @@
+.rubiks-logo {
+  object-fit: contain;
+  justify-content: center;
+}
+.header-container {
+  background-color: #fafafa;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+}
+#header-icon {
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+  .rubiks-logo {
+    height: 8vh;
+    width: 8vh;
+  }
+  #header-icon {
+    padding-bottom: 20px;
+    font-size: 32px;
+    margin: 8px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .rubiks-logo {
+    height: 8vh;
+    width: 8vh;
+  }
+  #header-icon {
+    padding-bottom: 20px;
+    margin: 6px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .rubiks-logo {
+    height: 8vh;
+    width: 8vh;
+  }
+  #header-icon {
+    font-size: 20px;
+    padding-bottom: 120px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .rubiks-logo {
+    height: 9vh;
+    width: 9vh;
+  }
+  #header-icon {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin: 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .rubiks-logo {
+    height: 10vh;
+    width: 10vh;
+  }
+  #header-icon {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin: 20 px;
+  }
+}

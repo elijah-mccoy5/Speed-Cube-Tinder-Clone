@@ -1,0 +1,87 @@
+.card {
+  position: relative;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+.tinder-card-container {
+  display: flex;
+  justify-content: center;
+}
+.swipe {
+  position: absolute;
+}
+.card h3 {
+  position: absolute;
+  bottom: 2px;
+  color: black;
+}
+.name {
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+  background-color: white;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    height: 50vh;
+    padding: 20px;
+    max-width: 85vw;
+    width: 600px;
+  }
+  .tinder-card-container {
+    margin-top: 10vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .card {
+    height: 50vh;
+    padding: 20px;
+    max-width: 85vw;
+    width: 600px;
+  }
+  .tinder-card-container {
+    margin-top: 8vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    height: 70vh;
+    padding: 20px;
+    max-width: 95vw;
+    width: 800px;
+  }
+  .tinder-card-container {
+    margin-top: 8vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    height: 60vh;
+    padding: 20px;
+    max-width: 95vw;
+    width: 700px;
+  }
+  .tinder-card-container {
+    margin-top: 5vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    height: 60vh;
+    padding: 20px;
+    max-width: 95vw;
+    width: 700px;
+  }
+  .tinder-card-container {
+    margin-top: 5vh;
+  }
+}

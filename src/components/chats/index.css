@@ -1,0 +1,42 @@
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 2px solid #fafafa;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.chat-details {
+  flex: 1;
+  justify-content: space-around;
+  text-align: left;
+}
+.chat-image {
+  margin-right: 20px;
+}
+.chat-details p {
+  color: gray;
+}
+.chat-timestamp {
+  color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}

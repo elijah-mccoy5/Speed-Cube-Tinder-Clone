@@ -1,0 +1,46 @@
+.chat-screen-text {
+  margin-left: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 20px;
+}
+.chat-screen-message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.chat-screen-timestamp {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  text-align: center;
+  padding: 20px;
+}
+.chat-screen-text-user {
+  margin-left: auto;
+  background-color: #29b3cd;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+}
+.chat-screen-input {
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+.chat-screen-input-field {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.input-button {
+  border: none;
+  margin-right: 20px;
+  background-color: white;
+  font-weight: bolder;
+  color: #fe3d71;
+}
